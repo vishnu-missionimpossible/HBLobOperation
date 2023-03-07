@@ -1,0 +1,18 @@
+1. In JDBC, Connection connection = DriverManager.getConnection();
+ 
+you are telling ConnectionImpl calss is implementing the Connection interface but on seeing the above statment we can say that DriverManager class is implementing because DriverManager is a class and getConnection() is a static method. and Same case applies for Statment interface.
+
+
+2. In File IO operations session, 
+
+//f.lenght() is of long
+char[] ch= new char[(int)f.length()];
+
+
+3. In 11th dec servlet session, setting up path variable and classpath variable like path= jdk version and classpath is servlet api and in my case jdk is installed in c/programfiles and servlet is present in D/Tomcat 9.0/lib
+
+set path = /bin;
+set classpath=.;servlet-api
+
+4. Why HttpServlet class is made as Abstract even though the methods present inside that class are not abstract. and 
+if default HttpServlet doXX methods won't execute means why they have written in that way.
